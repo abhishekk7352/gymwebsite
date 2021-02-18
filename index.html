@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Fitness</title>
+</head>
+<link href="<link href=" https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    /* css reset*/
+    body {
+        font-family: cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 55px;
+        /*border: 2px solid red;*/
+        top: 20px;
+    }
+
+    .mid {
+        display: block;
+        width: 39%;
+        top: 20px;
+
+        margin: 20px auto;
+        /*border: 2px solid green;*/
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /*border: 2px solid yellow;*/
+    }
+
+    .navbar {
+
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left img {
+        width: 140px;
+        filter: invert(100%);
+    }
+    }
+
+    .left div {
+        line-height: 19px: text-align: center;
+    }
+
+    .btn {
+        font-family: cursive;
+        margin: 0px 6px;
+        background-color: black;
+        color: white;
+        padding: 3px 10px;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn hover {
+        background-color: rgb(148, 35, 35);
+    }
+
+    .container {
+        /*border: 2px solid rgb(108, 105, 112);*/
+        margin: 100px 75px;
+        padding: 20px 20px;
+        width: 40%;
+        border-radius: 2px;
+    }
+
+    .form-group input {
+        font-family: cursive;
+        font-size:22px;
+        text-allign: center;
+
+        display: block;
+        width: 300px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 5px auto;
+        border-radius: 25px;
+    }
+
+    .container h1 {
+        text-allign: centre;
+        color:white;
+    }
+
+    .container button {
+        display: block;
+        margin: auto;
+        width: 203px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/gym.jpg" alt="">
+            <div> Abhishek Fitness</div>
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a> </li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Samastipur Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+
+            </div> 
+             <div class="form-group">
+                <input type="text" name="" placeholder="Enter your mobile no.">
+                
+            </div> 
+             <div class="form-group">
+                <input type="text" name="" placeholder="enter your Email id">
+                
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
